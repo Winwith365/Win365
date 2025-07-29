@@ -1,0 +1,157 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Win365 - Color & Number Prediction</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #000000;
+      color: #FAF6F0;
+    }
+    header {
+      background-color: #F4DFC8;
+      padding: 20px;
+      text-align: center;
+      color: #000000;
+      animation: fadeInDown 1s ease;
+    }
+    header h1 {
+      font-size: 3rem;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #F4EAE0;
+      }
+      to {
+        text-shadow: 0 0 20px #F4DFC8;
+      }
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      background-color: #F4EAE0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .intro {
+      text-align: center;
+      animation: fadeIn 1.5s ease;
+    }
+    .intro h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .btn-login {
+      background-color: #F4DFC8;
+      color: #000;
+      border: none;
+      padding: 10px 25px;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: transform 0.3s ease;
+    }
+    .btn-login:hover {
+      transform: scale(1.05);
+    }
+    .section h3 {
+      color: #F4DFC8;
+      margin-top: 30px;
+      font-size: 1.6rem;
+    }
+    .section p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #F4DFC8;
+      color: #000;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Win365</h1>
+    <p>Predict Colors & Numbers to Win Real Money</p>
+  </header>
+  <nav>
+    <a href="#intro">Intro</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#rules">Rules</a>
+    <a href="#deposit">Deposit</a>
+    <a href="#withdraw">Withdraw</a>
+    <a href="#contact">Support</a>
+    <a href="login.html">Login</a>
+  </nav>
+  <section class="section intro" id="intro">
+    <h2>Welcome to Win365</h2>
+    <p>Play the most exciting real money prediction game. Bet on colors or numbers, and earn coins based on your luck and strategy. Fast, fair and thrilling — this is Win365.</p>
+    <button class="btn-login" onclick="window.location.href='login.html'">Get Started</button>
+  </section>  <section class="section" id="benefits">
+    <h3>Why Win365?</h3>
+    <p>✔ Simple and fast gameplay</p>
+    <p>✔ Real UPI deposits and instant payouts</p>
+    <p>✔ Transparent and secure platform</p>
+    <p>✔ Mobile friendly and lightweight design</p>
+  </section>  <section class="section" id="rules">
+    <h3>Game Rules</h3>
+    <p>⏱ Each round runs for 1 minute</p>
+    <p>🎨 Choose a color: Red (2x), Green (2x), Violet (4.5x)</p>
+    <p>🔢 Choose a number between 0–9 for number game</p>
+    <p>💰 If your bet wins, your coins are multiplied</p>
+  </section>  <section class="section" id="deposit">
+    <h3>How to Deposit</h3>
+    <p>Send money via UPI to <strong>deepak95754272@axl</strong></p>
+    <p>Upload payment screenshot or UTR</p>
+    <p>Admin will verify and credit coins to your wallet</p>
+  </section>  <section class="section" id="withdraw">
+    <h3>How to Withdraw</h3>
+    <p>Enter your UPI ID and amount</p>
+    <p>Minimum withdrawal: ₹50</p>
+    <p>Withdrawals are processed manually by admin</p>
+  </section>  <section class="section" id="contact">
+    <h3>Support & Contact</h3>
+    <p>📧 Email: support@win365.com</p>
+    <p>📞 WhatsApp: +91-XXXXXXXXXX</p>
+    <p>We're here to help 10 AM – 8 PM every day</p>
+  </section>  <footer>
+    <p>&copy; 2025 Win365. All rights reserved.</p>
+  </footer>
+</body>
+</html>
